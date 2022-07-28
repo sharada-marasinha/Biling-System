@@ -57,7 +57,13 @@
       <AnchorPane layoutX="416.0" layoutY="95.0" prefHeight="480.0" prefWidth="275.0" style="-fx-background-color: #95a5a6;">
          <children>
             <TextArea fx:id="bill" layoutX="26.0" layoutY="29.0" prefHeight="211.0" prefWidth="223.0" />
-            <Button layoutX="112.0" layoutY="289.0" mnemonicParsing="false" onAction="#add" text="Print Bill" />
+            <Button layoutX="152.0" layoutY="289.0" mnemonicParsing="false" onAction="#printBill" text="Print Bill" />
+            <Button layoutX="44.0" layoutY="289.0" mnemonicParsing="false" onAction="#addSubTotal" text="Add Sub Total" />
+            <Label layoutX="44.0" layoutY="358.0" text="Sub Total :" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
    </children>

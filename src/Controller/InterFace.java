@@ -40,4 +40,10 @@ public class InterFace implements Initializable {
     }
 
 
+    public void printBill(ActionEvent actionEvent) {
+    }
+
+    public void addSubTotal(ActionEvent actionEvent) {
+        bill.setText(bill.getText());
+    }
 }
